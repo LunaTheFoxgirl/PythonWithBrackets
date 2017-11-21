@@ -18,7 +18,7 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
  * conditions use ()
  * fixes `from __future__ import braces`
 ### Code requirements
-Code written in pythonwb has only 2 requirements, everything else is syntax sugar.
+Code written in pythonwb has only 3 requirements, everything else is syntax sugar.
  * Semicolons end statements
  * curlybrackets define indentation.
  * Use () for conditions.
