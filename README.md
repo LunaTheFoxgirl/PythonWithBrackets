@@ -15,11 +15,13 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
  * true instead of True
  * false instead of False
  * empty classes/functions/etc will automatically get a placeholder to prevent compilation errors.
+ * conditions use ()
  * fixes `from __future__ import braces`
 ### Code requirements
 Code written in pythonwb has only 2 requirements, everything else is syntax sugar.
  * Semicolons end statements
  * curlybrackets define indentation.
+ * Use () for conditions.
  
  ## Example code
  ```Csharp
