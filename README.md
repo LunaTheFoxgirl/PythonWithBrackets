@@ -14,6 +14,7 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
  * C style multiline comments
  * true instead of True
  * false instead of False
+ * empty classes/functions/etc will automatically get a placeholder to prevent compilation errors.
  
  ## Example code
  ```Csharp
