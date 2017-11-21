@@ -7,9 +7,9 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
  * Statements ends with semicolons.
  * func instead of def
  * throw instead of raise
- * construct instead of __init__
- * iterate instead of __iter__
- * new instead of __new__
+ * construct instead of \_\_init\_\_
+ * iterate instead of \_\_iter\_\_
+ * new instead of \_\_new\_\_
  * this insteaad of self
  * C style multiline comments
  * true instead of True
