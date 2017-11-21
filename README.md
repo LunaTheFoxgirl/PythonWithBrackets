@@ -16,6 +16,10 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
  * false instead of False
  * empty classes/functions/etc will automatically get a placeholder to prevent compilation errors.
  * fixes `from __future__ import braces`
+### Code requirements
+Code written in pythonwb has only 2 requirements, everything else is syntax sugar.
+ * Semicolons end statements
+ * curlybrackets define indentation.
  
  ## Example code
  ```Csharp
@@ -26,6 +30,23 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
 
 	func GetMember(this) {
 		return this.MyMember;
+	}
+}
+
+print("Hello, world!");
+t = MyClass();
+print(t.GetMember());
+```
+
+### Example code (minimal pythonwb)
+ ```Csharp
+ class MyClass {
+	def __init__(self) {
+		self.MyMember = "Example";
+	}
+
+	def GetMember(self) {
+		return self.MyMember;
 	}
 }
 
