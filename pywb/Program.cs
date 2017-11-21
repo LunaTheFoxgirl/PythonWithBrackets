@@ -28,7 +28,7 @@ namespace pywb
 				foreach (var file in files)
 				{
 					var o = File.ReadAllText(file.FInfo.FullName);
-					o = GetPurePyStr(o);
+					o = GetPurePyStr(PreprocessPyStr(o));
 					if (!Directory.Exists(file.OutDir.Substring(0, file.OutDir.Length - file.FInfo.Name.Length))) {
 						Console.WriteLine("Creating needed directory " + file.OutDir.Substring(0, file.OutDir.Length - file.FInfo.Name.Length));
 						Directory.CreateDirectory(file.OutDir.Substring(0, file.OutDir.Length - file.FInfo.Name.Length));
@@ -59,6 +59,12 @@ namespace pywb
 				Console.WriteLine(ex);
 			}
 			return o;
+		}
+
+		public static string PreprocessPyStr(string str)
+		{
+			var a = Regex.Replace(str, "\\{+\\s+\\}+", "{'placeholder'}");
+			return a;
 		}
 
 		public static string GetPurePyStr(string str)
