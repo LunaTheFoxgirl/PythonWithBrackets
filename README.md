@@ -15,7 +15,7 @@ A transpiler that transpiles a python variant (pywb) into python. (The code is u
  * true instead of True
  * false instead of False
  * empty classes/functions/etc will automatically get a placeholder to prevent compilation errors.
- * fixes `from __future__ import brackets`
+ * fixes `from __future__ import braces`
  
  ## Example code
  ```Csharp
