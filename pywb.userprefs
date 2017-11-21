@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{113153B4-C17A-4DC0-88BA-B1B93F30A467}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pywb/Program.cs">
+    <Files>
+      <File FileName="pywb/Program.cs" Line="26" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.pywb PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

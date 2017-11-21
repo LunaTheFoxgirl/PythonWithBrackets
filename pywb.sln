@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pywb", "pywb\pywb.csproj", "{113153B4-C17A-4DC0-88BA-B1B93F30A467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113153B4-C17A-4DC0-88BA-B1B93F30A467}.Debug|x86.ActiveCfg = Debug|x86
+		{113153B4-C17A-4DC0-88BA-B1B93F30A467}.Debug|x86.Build.0 = Debug|x86
+		{113153B4-C17A-4DC0-88BA-B1B93F30A467}.Release|x86.ActiveCfg = Release|x86
+		{113153B4-C17A-4DC0-88BA-B1B93F30A467}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
