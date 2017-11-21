@@ -64,6 +64,7 @@ namespace pywb
 		public static string PreprocessPyStr(string str)
 		{
 			var a = Regex.Replace(str, "\\{+\\s+\\}+", "{'placeholder'}");
+			a = a.Replace("from __future__ import braces", "print(\"Oops, my bad.\")");
 			return a;
 		}
 
